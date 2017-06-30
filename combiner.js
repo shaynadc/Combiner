@@ -41,6 +41,5 @@ files.forEach(function(file){
 			writer.end();
 		})
 });
-
 //print to specified file
 writer.pipe(process.stdout);
