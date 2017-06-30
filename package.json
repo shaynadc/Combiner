@@ -1,0 +1,17 @@
+{
+    "name": "combiner",
+    "version": "0.0.1",
+    "description": "Combine csv data from multiple files",
+    "preferGlobal": "true",
+    "bin": {
+        "combiner": "combiner.js"
+    },
+    "author": "Shayna Dunn",
+    "engines": {
+        "node": "*"
+    },
+    "dependencies": {
+        "csv-write-stream": "^2.0.0",
+        "csvtojson": "^1.1.7"
+    }
+}
